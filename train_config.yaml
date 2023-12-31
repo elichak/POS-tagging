@@ -1,0 +1,14 @@
+model_params:
+  num_embeddings: 156934
+  embedding_dim: 300
+  padding_idx: 0
+  num_layers: 1
+  hidden_size: 450
+  bidirectional: true
+  out_features: 20
+  
+optimizer_lr: 0.0003
+batch_size: 64
+device: "cuda:0"
+n_epochs: 5
+log_dir: './Logs/POS-tagging'
